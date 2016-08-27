@@ -1,0 +1,123 @@
+
+
+
+<!-- COSA NECESARIA HOLA MAESTRO -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#cd7ef5"
+    android:fadingEdge="horizontal"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- Texto del IMC -->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingTop="40dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:text="CIM"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:typeface="serif" />
+
+    <!-- Textview de la calculadora -->
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculadora"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <!-- Textview para el PESO(KG) -->
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:text="Peso (KG)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <!-- Editor de texto para el Peso(Kg) -->
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="IN KGs"
+        android:ems="10"
+        android:fadingEdgeLength="10dp"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:text="En kg">
+        <requestFocus />
+    </EditText>
+
+    <!-- Text view for HEIGHT(CM)text -->
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:text="Altura (Cms)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:layout_weight="0.15" />
+
+    <!-- Edito de texto para Atura(cm) -->
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="IN CMs"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="En cmsf">
+    </EditText>
+
+    <!-- Botón que calcula la fórmula,  -->
+    <Button
+        android:id="@+id/ib1"
+        android:layout_width="158dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fadingEdge="vertical"
+        android:longClickable="true"
+        android:nextFocusRight="#030303"
+        android:text="Calculate"
+        android:visibility="visible"
+        android:background="@color/abc_search_url_text_normal" />
+
+    <!-- Texto que se muestra al obtener el resultado -->
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+</LinearLayout>
+    <!-- Aqui termina Linear layout -->
+

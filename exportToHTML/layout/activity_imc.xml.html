@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>activity_imc.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,0); }
+.s1 { color: rgb(128,128,128); font-style: italic; }
+.s2 { color: rgb(0,0,128); font-weight: bold; }
+.s3 { color: rgb(0,0,255); font-weight: bold; }
+.s4 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+activity_imc.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0"> 
+ 
+ 
+</span><span class="s1">&lt;!-- COSA NECESARIA HOLA MAESTRO --&gt;</span><span class="s0"> 
+&lt;</span><span class="s2">LinearLayout </span><span class="s3">xmlns:android=</span><span class="s4">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s0"> 
+    </span><span class="s3">android:layout_width=</span><span class="s4">&quot;fill_parent&quot;</span><span class="s0"> 
+    </span><span class="s3">android:layout_height=</span><span class="s4">&quot;fill_parent&quot;</span><span class="s0"> 
+    </span><span class="s3">android:background=</span><span class="s4">&quot;#cd7ef5&quot;</span><span class="s0"> 
+    </span><span class="s3">android:fadingEdge=</span><span class="s4">&quot;horizontal&quot;</span><span class="s0"> 
+    </span><span class="s3">android:orientation=</span><span class="s4">&quot;vertical&quot;</span><span class="s0"> 
+    </span><span class="s3">android:weightSum=</span><span class="s4">&quot;1&quot;</span><span class="s0">&gt; 
+ 
+    </span><span class="s1">&lt;!-- Texto del IMC --&gt;</span><span class="s0"> 
+    &lt;</span><span class="s2">TextView</span><span class="s0"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/tv1&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;124dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_gravity=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:paddingLeft=</span><span class="s4">&quot;15dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:paddingTop=</span><span class="s4">&quot;40dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:shadowColor=</span><span class="s4">&quot;@android:color/black&quot;</span><span class="s0"> 
+        </span><span class="s3">android:shadowDx=</span><span class="s4">&quot;4&quot;</span><span class="s0"> 
+        </span><span class="s3">android:shadowDy=</span><span class="s4">&quot;4&quot;</span><span class="s0"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;CIM&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textAppearance=</span><span class="s4">&quot;?android:attr/textAppearanceLarge&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textColor=</span><span class="s4">&quot;@android:color/white&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textSize=</span><span class="s4">&quot;50sp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:typeface=</span><span class="s4">&quot;serif&quot; </span><span class="s0">/&gt; 
+ 
+    </span><span class="s1">&lt;!-- Textview de la calculadora --&gt;</span><span class="s0"> 
+    &lt;</span><span class="s2">TextView</span><span class="s0"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/tv2&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_gravity=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;Calculadora&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textColor=</span><span class="s4">&quot;@android:color/white&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textSize=</span><span class="s4">&quot;20dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textStyle=</span><span class="s4">&quot;bold&quot; </span><span class="s0">/&gt; 
+ 
+    </span><span class="s1">&lt;!-- Textview para el PESO(KG) --&gt;</span><span class="s0"> 
+    &lt;</span><span class="s2">TextView</span><span class="s0"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/tv3&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_gravity=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:paddingTop=</span><span class="s4">&quot;30dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;Peso (KG)&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textAppearance=</span><span class="s4">&quot;?android:attr/textAppearanceMedium&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textColor=</span><span class="s4">&quot;@android:color/white&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textStyle=</span><span class="s4">&quot;bold|italic&quot;</span><span class="s0"> 
+        </span><span class="s3">android:typeface=</span><span class="s4">&quot;serif&quot; </span><span class="s0">/&gt; 
+ 
+    </span><span class="s1">&lt;!-- Editor de texto para el Peso(Kg) --&gt;</span><span class="s0"> 
+    &lt;</span><span class="s2">EditText</span><span class="s0"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/et1&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;96dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_gravity=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:hint=</span><span class="s4">&quot;IN KGs&quot;</span><span class="s0"> 
+        </span><span class="s3">android:ems=</span><span class="s4">&quot;10&quot;</span><span class="s0"> 
+        </span><span class="s3">android:fadingEdgeLength=</span><span class="s4">&quot;10dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:inputType=</span><span class="s4">&quot;numberDecimal&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textAlignment=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;En kg&quot;</span><span class="s0">&gt; 
+        &lt;</span><span class="s2">requestFocus </span><span class="s0">/&gt; 
+    &lt;/</span><span class="s2">EditText</span><span class="s0">&gt; 
+ 
+    </span><span class="s1">&lt;!-- Text view for HEIGHT(CM)text --&gt;</span><span class="s0"> 
+    &lt;</span><span class="s2">TextView</span><span class="s0"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/tv3&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_gravity=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:paddingTop=</span><span class="s4">&quot;30dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;Altura (Cms)&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textAppearance=</span><span class="s4">&quot;?android:attr/textAppearanceMedium&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textColor=</span><span class="s4">&quot;@android:color/white&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textStyle=</span><span class="s4">&quot;bold|italic&quot;</span><span class="s0"> 
+        </span><span class="s3">android:typeface=</span><span class="s4">&quot;serif&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_weight=</span><span class="s4">&quot;0.15&quot; </span><span class="s0">/&gt; 
+ 
+    </span><span class="s1">&lt;!-- Edito de texto para Atura(cm) --&gt;</span><span class="s0"> 
+    &lt;</span><span class="s2">EditText</span><span class="s0"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/et2&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;96dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_gravity=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:hint=</span><span class="s4">&quot;IN CMs&quot;</span><span class="s0"> 
+        </span><span class="s3">android:ems=</span><span class="s4">&quot;10&quot;</span><span class="s0"> 
+        </span><span class="s3">android:inputType=</span><span class="s4">&quot;numberDecimal&quot;</span><span class="s0"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;En cmsf&quot;</span><span class="s0">&gt; 
+    &lt;/</span><span class="s2">EditText</span><span class="s0">&gt; 
+ 
+    </span><span class="s1">&lt;!-- Botón que calcula la fórmula,  --&gt;</span><span class="s0"> 
+    &lt;</span><span class="s2">Button</span><span class="s0"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/ib1&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;158dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;51dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_gravity=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_marginTop=</span><span class="s4">&quot;20dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:fadingEdge=</span><span class="s4">&quot;vertical&quot;</span><span class="s0"> 
+        </span><span class="s3">android:longClickable=</span><span class="s4">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s3">android:nextFocusRight=</span><span class="s4">&quot;#030303&quot;</span><span class="s0"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;Calculate&quot;</span><span class="s0"> 
+        </span><span class="s3">android:visibility=</span><span class="s4">&quot;visible&quot;</span><span class="s0"> 
+        </span><span class="s3">android:background=</span><span class="s4">&quot;@color/abc_search_url_text_normal&quot; </span><span class="s0">/&gt; 
+ 
+    </span><span class="s1">&lt;!-- Texto que se muestra al obtener el resultado --&gt;</span><span class="s0"> 
+    &lt;</span><span class="s2">TextView</span><span class="s0"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/tv4&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s3">android:layout_gravity=</span><span class="s4">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s3">android:paddingTop=</span><span class="s4">&quot;20dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textSize=</span><span class="s4">&quot;20dp&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textStyle=</span><span class="s4">&quot;bold&quot;</span><span class="s0"> 
+        </span><span class="s3">android:textColor=</span><span class="s4">&quot;@android:color/holo_orange_dark&quot;</span><span class="s0">/&gt; 
+ 
+&lt;/</span><span class="s2">LinearLayout</span><span class="s0">&gt; 
+    </span><span class="s1">&lt;!-- Aqui termina Linear layout --&gt;</span><span class="s0"> 
+ 
+</span></pre>
+</body>
+</html>
